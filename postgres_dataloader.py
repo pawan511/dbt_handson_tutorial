@@ -5,7 +5,7 @@ import warnings
 import shutil
 warnings.filterwarnings('ignore')
 
-credentials = "postgresql://postgres:1234@172.17.0.2/test"
+credentials = "postgresql://postgres:pass@0.0.0.0:5431/test"
 
 #Starting the data loading and cleaning. 
 print('Unpacking archive')
